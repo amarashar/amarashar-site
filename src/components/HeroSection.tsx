@@ -5,7 +5,7 @@ const HeroSection = () => {
         <div className="lg:w-1/3">
           <div className="rounded-xl overflow-hidden shadow-md max-w-xs">
             <img
-              src="https://lh3.googleusercontent.com/sitesv/AA5AbUCHjsuBhzFS9j73uQmbcEGbo9vTjm1oen9Td82BGBsfK380CE5y4K-hBOZkRCCELWpPrre0YXTHs7sK0dzxL0NGwN4qoAKZ9cYL9qWSsqdo1IP8Oz_08FoYmT1-sKn9kXjRc9ePPOzTwpcKRSWL1uFerP17cx6pMLs9tNP4Xhk9PG2t9ZTAPUP4VmkCk8_WsA5nObsyt49XZM8RKfmjJZuSIiNM0NvOZj43ZNQ=w800"
+            src="/amarashar-site/amar.jpg"
               alt="Amar Ashar"
               className="w-full h-auto object-cover"
             />
