@@ -1,3 +1,4 @@
+import amarImage from "../assets/amar.jpg";
 const HeroSection = () => {
   return (
     <section id="home" className="pt-16 pb-20">
@@ -5,7 +6,7 @@ const HeroSection = () => {
         <div className="lg:w-1/3">
           <div className="rounded-xl overflow-hidden shadow-md max-w-xs">
             <img
-            src="/amarashar-site/amar.jpg"
+            src={amarImage}
               alt="Amar Ashar"
               className="w-full h-auto object-cover"
             />
