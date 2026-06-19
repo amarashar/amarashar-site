@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 23% 94%;
+    --foreground: 0 0% 10%;
+
+    --card: 40 20% 98%;
+    --card-foreground: 0 0% 10%;
+
+    --popover: 40 20% 98%;
+    --popover-foreground: 0 0% 10%;
+
+    --primary: 140 25% 35%;
+    --primary-foreground: 40 20% 98%;
+
+    --secondary: 40 15% 88%;
+    --secondary-foreground: 0 0% 20%;
+
+    --muted: 40 15% 88%;
+    --muted-foreground: 0 0% 40%;
+
+    --accent: 140 25% 35%;
+    --accent-foreground: 40 20% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 35 15% 82%;
+    --input: 35 15% 82%;
+    --ring: 140 25% 35%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    --font-serif: 'Merriweather', serif;
+    --font-sans: 'Outfit', sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-serif);
+  }
+}
