@@ -12,7 +12,7 @@ const HeroSection = () => {
             />
           </div>
         </div>
-        <div className="lg:w-2/3">
+        <div className="lg:w-2/3 -ml-4">
           <h1 className="text-3xl lg:text-4xl font-bold leading-snug mb-6">
             Amar Ashar
           </h1>
