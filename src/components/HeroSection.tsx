@@ -3,7 +3,7 @@ const HeroSection = () => {
   return (
     <section id="home" className="pt-16 pb-20">
       <div className="container mx-auto px-8 flex flex-col lg:flex-row items-start gap-3">
-        <div className="lg:w-1/3 ml-8">
+        <div className="lg:w-1/3 pr-0">
           <div className="rounded-xl overflow-hidden shadow-md max-w-[250px]">
             <img
             src={amarImage}
@@ -12,7 +12,7 @@ const HeroSection = () => {
             />
           </div>
         </div>
-        <div className="lg:w-2/3 -ml-4">
+        <div className="lg:w-2/3 pl-0">
           <h1 className="text-3xl lg:text-4xl font-bold leading-snug mb-6">
             Amar Ashar
           </h1>
