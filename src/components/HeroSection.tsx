@@ -4,7 +4,7 @@ const HeroSection = () => {
     <section id="home" className="pt-16 pb-20">
       <div className="container mx-auto px-8 flex flex-col lg:flex-row items-start gap-6">
         <div className="lg:w-1/3">
-          <div className="rounded-xl overflow-hidden shadow-md max-w-[220px]">
+          <div className="rounded-xl overflow-hidden shadow-md max-w-[300px]">
             <img
             src={amarImage}
               alt="Amar Ashar"
