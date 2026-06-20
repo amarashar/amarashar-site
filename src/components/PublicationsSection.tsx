@@ -2,7 +2,7 @@ const publications = [
   {
     title: "Intersections Between Trust, Safety, and Responsible AI",
     year: "2026",
-    venue: "Past, Present, Future of Trust & Safety Edited Volume (Forthcoming)",
+    venue: "Trust, Safety, and the Internet We Share",
     url: "https://www.taylorfrancis.com/chapters/oa-edit/10.1201/9781003621072-30/intersections-trust-safety-responsible-ai-amar-ashar",
   },
   {
