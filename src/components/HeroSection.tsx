@@ -3,7 +3,7 @@ const HeroSection = () => {
   return (
     <section id="home" className="pt-16 pb-20">
       <div className="container mx-auto px-8 flex flex-col lg:flex-row items-start gap-3">
-        <div className="lg:w-auto pr-0">
+        <div className="lg:w-auto mr-8">
           <div className="rounded-xl overflow-hidden shadow-md max-w-[250px]">
             <img
             src={amarImage}
