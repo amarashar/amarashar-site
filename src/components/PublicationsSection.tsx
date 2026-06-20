@@ -1,5 +1,11 @@
 const publications = [
   {
+    title: "Intersections Between Trust, Safety, and Responsible AI",
+    year: "2026",
+    venue: "Past, Present, Future of Trust & Safety Edited Volume (Forthcoming)",
+    url: "https://www.taylorfrancis.com/chapters/oa-edit/10.1201/9781003621072-30/intersections-trust-safety-responsible-ai-amar-ashar",
+  },
+  {
     title: "Algorithmic Impact Assessments at Scale: Practitioners' Challenges and Need",
     year: "2024",
     venue: "Stanford Journal of Online Trust & Safety",
@@ -11,11 +17,7 @@ const publications = [
     venue: "ACM Transactions on Recommender Systems",
     url: "https://dl.acm.org/doi/10.1145/3632297",
   },
-  {
-    title: "Intersections Between Trust, Safety, and Responsible AI",
-    year: "2025",
-    venue: "Past, Present, Future of Trust & Safety Edited Volume (Forthcoming)",
-  },
+
   {
     title: "Lessons Learned from Algorithmic Impact Assessments in Practice",
     year: "2022",
